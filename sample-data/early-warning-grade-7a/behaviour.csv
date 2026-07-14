@@ -1,0 +1,15 @@
+student_id,first_name,class_name,date,incident_type,severity,action_taken,resolved,academic_year,term
+G7A-001,Tendai,Grade 7A,2026-05-22,Talking during lesson,low,Teacher reminder,yes,2026,2
+G7A-003,Nyasha,Grade 7A,2026-05-29,Late to class,low,Teacher reminder,yes,2026,2
+G7A-002,Chipo,Grade 7A,2026-06-12,Incomplete classwork,low,Support offered,yes,2026,2
+G7A-001,Tendai,Grade 7A,2026-06-26,Lesson disruption,medium,Class teacher follow-up,no,2026,2
+G7A-002,Chipo,Grade 7A,2026-06-26,Incomplete classwork,medium,Class teacher follow-up,no,2026,2
+G7A-003,Nyasha,Grade 7A,2026-06-26,Late to class,medium,Class teacher follow-up,no,2026,2
+G7A-001,Tendai,Grade 7A,2026-07-03,Lesson disruption,medium,Referral to Deputy Head,no,2026,2
+G7A-001,Tendai,Grade 7A,2026-07-03,Incomplete classwork,medium,Support offered,no,2026,2
+G7A-002,Chipo,Grade 7A,2026-07-03,Lesson disruption,medium,Class teacher follow-up,no,2026,2
+G7A-003,Nyasha,Grade 7A,2026-07-03,Late to class,medium,Attendance review,no,2026,2
+G7A-001,Tendai,Grade 7A,2026-07-10,Lesson disruption,high,Referral to Deputy Head,no,2026,2
+G7A-002,Chipo,Grade 7A,2026-07-10,Incomplete classwork,medium,Parent contact planned,no,2026,2
+G7A-002,Chipo,Grade 7A,2026-07-10,Late to class,medium,Attendance review,no,2026,2
+G7A-003,Nyasha,Grade 7A,2026-07-10,Lesson disruption,medium,Class teacher follow-up,no,2026,2

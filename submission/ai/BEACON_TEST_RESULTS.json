@@ -1,0 +1,106 @@
+{
+  "evaluation_date": "2026-07-14",
+  "evaluation_type": "deterministic evidence, scope, grounding and provider-boundary regression",
+  "live_model_semantic_benchmark": false,
+  "tests_run": 23,
+  "passed": 23,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "tests": [
+    {
+      "test": "test_analysis.AnalysisTests.test_calculates_verified_changes",
+      "status": "passed"
+    },
+    {
+      "test": "test_analysis.AnalysisTests.test_detects_grade_7a_high_signals",
+      "status": "passed"
+    },
+    {
+      "test": "test_analysis.AnalysisTests.test_evidence_package_is_traceable_and_balanced",
+      "status": "passed"
+    },
+    {
+      "test": "test_analysis.AnalysisTests.test_healthy_movement_is_not_presented_as_a_risk",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_configured_key_uses_the_gemini_provider",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_conversation_is_persisted_and_can_be_reopened",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_different_learners_receive_different_verified_signals",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_endpoint_returns_a_safe_configuration_error_without_key",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_evidence_question_is_not_intercepted_as_small_talk",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_exam_readiness_question_compares_classes_without_claiming_official_pass_rate",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_greeting_endpoint_does_not_call_gemini",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_greeting_gets_a_brief_conversational_reply",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_known_learner_does_not_trigger_clarification",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_learner_scope_replaces_class_signals_with_learner_records",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_metric_scope_prioritises_the_selected_verified_metric",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_missing_key_is_reported_before_a_live_request",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_named_learner_overrides_broad_page_scope",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_response_reuses_verified_confidence_and_evidence",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_school_scope_uses_school_aggregates_not_primary_class_signals",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_unknown_learner_is_intercepted_before_gemini",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_unknown_learner_name_keeps_requested_scope",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_unverified_evidence_is_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_beacon.BeaconTests.test_unverified_number_in_draft_is_not_exposed",
+      "status": "passed"
+    }
+  ],
+  "interpretation": "These tests prove application controls and grounding invariants. They do not replace educator usability testing or repeated live-model quality evaluation."
+}

@@ -1,0 +1,275 @@
+{
+  "validation_status": "passed",
+  "validation_date": "2026-07-14",
+  "validated_with": "backend/app/services/imports.py",
+  "data_summary": {
+    "learners": 20,
+    "classes": 4,
+    "attendance_records": 400,
+    "behaviour_records": 34,
+    "assessment_records": 400
+  },
+  "classes": [
+    "Form 1A",
+    "Form 2A",
+    "Form 3A",
+    "Form 4A"
+  ],
+  "subjects": [
+    "Combined Science",
+    "English Language",
+    "Heritage Studies",
+    "Mathematics",
+    "Shona Language"
+  ],
+  "periods": {
+    "attendance_dates": [
+      "2026-06-01",
+      "2026-07-10"
+    ],
+    "assessment_dates": [
+      "2026-06-05",
+      "2026-07-10"
+    ]
+  },
+  "scenario_results": {
+    "connected_high_attention": {
+      "Chipo": {
+        "student_id": "PHS-F4A-001",
+        "learner_name": "Chipo",
+        "class_name": "Form 4A",
+        "attendance_previous": 100.0,
+        "attendance_current": 60.0,
+        "behaviour_previous": 0,
+        "behaviour_current": 8,
+        "assessment_previous": 71.4,
+        "assessment_current": 59.4,
+        "risk_factors": [
+          "attendance_decline",
+          "behaviour_increase",
+          "assessment_decline"
+        ]
+      },
+      "Nyasha": {
+        "student_id": "PHS-F2A-001",
+        "learner_name": "Nyasha",
+        "class_name": "Form 2A",
+        "attendance_previous": 100.0,
+        "attendance_current": 70.0,
+        "behaviour_previous": 0,
+        "behaviour_current": 4,
+        "assessment_previous": 67.4,
+        "assessment_current": 59.4,
+        "risk_factors": [
+          "attendance_decline",
+          "behaviour_increase",
+          "assessment_decline"
+        ]
+      },
+      "Tendai": {
+        "student_id": "PHS-F3A-001",
+        "learner_name": "Tendai",
+        "class_name": "Form 3A",
+        "attendance_previous": 90.0,
+        "attendance_current": 70.0,
+        "behaviour_previous": 0,
+        "behaviour_current": 7,
+        "assessment_previous": 68.4,
+        "assessment_current": 59.4,
+        "risk_factors": [
+          "attendance_decline",
+          "behaviour_increase",
+          "assessment_decline"
+        ]
+      }
+    },
+    "single_signal_watch": {
+      "Tanaka": {
+        "student_id": "PHS-F1A-003",
+        "learner_name": "Tanaka",
+        "class_name": "Form 1A",
+        "attendance_previous": 100.0,
+        "attendance_current": 100.0,
+        "behaviour_previous": 0,
+        "behaviour_current": 0,
+        "assessment_previous": 71.4,
+        "assessment_current": 68.4,
+        "risk_factors": [
+          "assessment_decline"
+        ]
+      },
+      "Tapiwa": {
+        "student_id": "PHS-F4A-003",
+        "learner_name": "Tapiwa",
+        "class_name": "Form 4A",
+        "attendance_previous": 100.0,
+        "attendance_current": 90.0,
+        "behaviour_previous": 0,
+        "behaviour_current": 0,
+        "assessment_previous": 61.4,
+        "assessment_current": 62.4,
+        "risk_factors": [
+          "attendance_decline"
+        ]
+      }
+    },
+    "stable_control_count": 15
+  },
+  "class_results": [
+    {
+      "class_name": "Form 4A",
+      "risk_score": 7,
+      "repeated_absences": 1,
+      "signals": [
+        {
+          "id": "attendance_form_4a",
+          "category": "attendance",
+          "fact": "Attendance declined from 96.0% to 88.0%.",
+          "previous_value": 96.0,
+          "current_value": 88.0,
+          "change": -8.0,
+          "severity": "high"
+        },
+        {
+          "id": "behaviour_form_4a",
+          "category": "behaviour",
+          "fact": "Behaviour incidents increased from 2 to 10.",
+          "previous_value": 2,
+          "current_value": 10,
+          "change": 8,
+          "severity": "high"
+        },
+        {
+          "id": "assessment_form_4a",
+          "category": "assessment",
+          "fact": "Mathematics average declined from 63.4% to 62.4%.",
+          "previous_value": 63.4,
+          "current_value": 62.4,
+          "change": -1.0,
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "class_name": "Form 3A",
+      "risk_score": 5,
+      "repeated_absences": 1,
+      "signals": [
+        {
+          "id": "attendance_form_3a",
+          "category": "attendance",
+          "fact": "Attendance declined from 96.0% to 92.0%.",
+          "previous_value": 96.0,
+          "current_value": 92.0,
+          "change": -4.0,
+          "severity": "medium"
+        },
+        {
+          "id": "behaviour_form_3a",
+          "category": "behaviour",
+          "fact": "Behaviour incidents increased from 2 to 9.",
+          "previous_value": 2,
+          "current_value": 9,
+          "change": 7,
+          "severity": "high"
+        },
+        {
+          "id": "assessment_form_3a",
+          "category": "assessment",
+          "fact": "Mathematics average declined from 67.4% to 67.2%.",
+          "previous_value": 67.4,
+          "current_value": 67.2,
+          "change": -0.2,
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "class_name": "Form 2A",
+      "risk_score": 2,
+      "repeated_absences": 1,
+      "signals": [
+        {
+          "id": "attendance_form_2a",
+          "category": "attendance",
+          "fact": "Attendance declined from 96.0% to 92.0%.",
+          "previous_value": 96.0,
+          "current_value": 92.0,
+          "change": -4.0,
+          "severity": "medium"
+        },
+        {
+          "id": "behaviour_form_2a",
+          "category": "behaviour",
+          "fact": "Behaviour incidents increased from 2 to 5.",
+          "previous_value": 2,
+          "current_value": 5,
+          "change": 3,
+          "severity": "medium"
+        },
+        {
+          "id": "assessment_form_2a",
+          "category": "assessment",
+          "fact": "Mathematics average remained stable from 64.6% to 64.6%.",
+          "previous_value": 64.6,
+          "current_value": 64.6,
+          "change": 0.0,
+          "severity": "healthy"
+        }
+      ]
+    },
+    {
+      "class_name": "Form 1A",
+      "risk_score": 0,
+      "repeated_absences": 0,
+      "signals": [
+        {
+          "id": "attendance_form_1a",
+          "category": "attendance",
+          "fact": "Attendance increased from 96.0% to 98.0%.",
+          "previous_value": 96.0,
+          "current_value": 98.0,
+          "change": 2.0,
+          "severity": "healthy"
+        },
+        {
+          "id": "behaviour_form_1a",
+          "category": "behaviour",
+          "fact": "Behaviour incidents remained stable from 2 to 2.",
+          "previous_value": 2,
+          "current_value": 2,
+          "change": 0,
+          "severity": "healthy"
+        },
+        {
+          "id": "assessment_form_1a",
+          "category": "assessment",
+          "fact": "Mathematics average increased from 66.6% to 67.6%.",
+          "previous_value": 66.6,
+          "current_value": 67.6,
+          "change": 1.0,
+          "severity": "healthy"
+        }
+      ]
+    }
+  ],
+  "integrity_checks": {
+    "unique_learner_ids": 20,
+    "duplicate_attendance_keys": 0,
+    "duplicate_behaviour_keys": 0,
+    "duplicate_assessment_keys": 0,
+    "scores_in_range": true,
+    "valid_domain_values": true,
+    "official_outcome_claims_present": false
+  },
+  "sha256": {
+    "attendance.csv": "d43615bf894a28f91fb676c16363247958ac30f5b463dbd86fec94839b88b306",
+    "behaviour.csv": "a8d54a23ca94fa37f18e118b71138fd8f85936706c7156024a62cfacae1da65a",
+    "assessments.csv": "13e8e34d604c5dd3435fd710c8cd8dac99ef85abee15e5a11f29353bc9d51437"
+  },
+  "behaviour_severity_distribution": {
+    "high": 8,
+    "low": 15,
+    "medium": 11
+  }
+}

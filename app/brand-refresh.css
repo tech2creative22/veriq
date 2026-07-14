@@ -1,0 +1,403 @@
+:root {
+  --navy: #06152d;
+  --ink: #0b1734;
+  --muted: #61708e;
+  --line: #e4e9f2;
+  --canvas: #f7f9fd;
+  --purple: #6842f5;
+  --purple-deep: #3f2aae;
+  --purple-soft: #f1edff;
+  --green: #18a673;
+  --amber: #e39118;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+.sidebar {
+  background:
+    radial-gradient(circle at 12% 8%, #19335d 0, transparent 31%),
+    linear-gradient(180deg, #06162f 0%, #06142a 58%, #041125 100%);
+  color: #dde6f5;
+  border-right: 1px solid #17304f;
+  box-shadow: 10px 0 34px #0714270d;
+}
+
+.brand {
+  gap: 12px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 760;
+  letter-spacing: -0.045em;
+}
+
+.veriq-mark {
+  display: block;
+  filter: drop-shadow(0 6px 14px #6c45f84a);
+}
+
+.school-switcher {
+  width: 100%;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid #29415f;
+  background: linear-gradient(135deg, #102a4b, #0b213e);
+  box-shadow: inset 0 1px #ffffff0a, 0 12px 25px #00000012;
+}
+
+.school-switcher > svg {
+  margin-left: auto;
+  color: #8fa2bd;
+}
+
+.school-dot {
+  color: #fff;
+  background: linear-gradient(145deg, #704cff, #4430c5);
+  box-shadow: 0 6px 14px #6842f53d;
+}
+
+.school-switcher strong,
+.profile strong {
+  color: #fff;
+}
+
+.school-switcher small,
+.profile small {
+  color: #8fa2bd;
+}
+
+.nav-label {
+  color: #7186a3;
+}
+
+.nav-item {
+  min-height: 44px;
+  color: #b2c0d4;
+  text-decoration: none;
+  transition: color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.nav-item svg {
+  flex: 0 0 auto;
+  color: #9fb0c7;
+}
+
+.nav-item:hover {
+  color: #fff;
+  background: #ffffff0d;
+  transform: translateX(2px);
+}
+
+.nav-item:hover svg,
+.nav-item.active svg {
+  color: #fff;
+}
+
+.nav-item.active {
+  color: #fff;
+  background: linear-gradient(105deg, #7149f5 0%, #4431b8 100%);
+  box-shadow: 0 10px 24px #402eb64d, inset 0 1px #ffffff2e;
+}
+
+.nav-item:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.profile {
+  border-top-color: #203852;
+}
+
+.profile > span,
+.avatar {
+  background: linear-gradient(145deg, #704cff, #4934c8);
+  box-shadow: 0 6px 14px #4934c82e;
+}
+
+button.avatar {
+  border: 0;
+}
+
+.profile button {
+  display: grid;
+  place-items: center;
+}
+
+.workspace {
+  background: var(--canvas);
+}
+
+.topbar {
+  border-bottom-color: var(--line);
+  background: #ffffffeb;
+  box-shadow: 0 1px 0 #ffffff, 0 8px 24px #10243d05;
+  backdrop-filter: blur(12px);
+}
+
+.crumb {
+  color: #8997ad;
+}
+
+.crumb strong {
+  color: var(--ink);
+}
+
+.icon-button {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fff;
+  color: #43516b;
+  transition: color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.icon-button:hover {
+  color: var(--purple);
+  border-color: #cfc5ff;
+  box-shadow: 0 7px 18px #5037c313;
+  transform: translateY(-1px);
+}
+
+.notification i {
+  top: 1px;
+  right: 1px;
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff;
+  background: #6842f5;
+}
+
+.mobile-mark {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.metric-card,
+.priority-card,
+.alerts-card,
+.upload-card,
+.upload-processing,
+.evidence-item,
+.missing-evidence,
+.intervention-actions,
+.decision-accountability,
+.decision-evidence-panel,
+.decision-action-panel,
+.decision-outcomes,
+.beacon-message {
+  border-color: var(--line);
+  background: #fff;
+  box-shadow: 0 8px 28px #14274408;
+}
+
+.metric-card:hover,
+.priority-card:hover,
+.upload-card:hover,
+.evidence-item:hover {
+  border-color: #d5cefa;
+  box-shadow: 0 14px 34px #3d2aa10d;
+}
+
+.metric-icon,
+.upload-icon {
+  color: #536581;
+  background: #eef3fb;
+}
+
+.metric-beacon-insight span,
+.inline-action,
+.ask-beacon,
+.alert-beacon-action,
+.section-meta,
+.context-label {
+  color: var(--purple);
+}
+
+.beacon-brief {
+  color: var(--ink);
+  border: 1px solid #ddd5ff;
+  background:
+    radial-gradient(circle at 76% 20%, #ffffff 0, transparent 27%),
+    radial-gradient(circle at 21% 0%, #ece6ff 0, transparent 38%),
+    linear-gradient(118deg, #f6f3ff, #eee9ff 56%, #f8f6ff);
+  box-shadow: 0 18px 40px #5038bc14;
+}
+
+.beacon-brief::after {
+  border-color: #765cf329;
+}
+
+.beacon-orb {
+  color: #fff;
+  border-color: #ffffff87;
+  background: linear-gradient(145deg, #815fff, #4b31d0);
+  box-shadow: 0 12px 24px #5a3fd33d, inset 0 1px #ffffff42;
+}
+
+.beacon-label,
+.brief-confidence span,
+.brief-confidence small {
+  color: #6c58bd;
+}
+
+.beacon-copy h2 {
+  color: var(--ink);
+}
+
+.beacon-copy p {
+  color: #566582;
+}
+
+.brief-confidence {
+  border-left-color: #cec3fb;
+}
+
+.brief-confidence strong {
+  color: var(--purple-deep);
+}
+
+.beacon-action,
+.intervention-beacon-button,
+.intervention-decision-button,
+.decision-assign,
+.upload-processing button {
+  color: #fff;
+  background: linear-gradient(105deg, #744cff 0%, #5134d0 100%);
+  box-shadow: 0 8px 18px #5639d22c;
+}
+
+.beacon-action:hover,
+.intervention-beacon-button:hover,
+.intervention-decision-button:hover,
+.decision-assign:not(:disabled):hover,
+.upload-processing button:not(:disabled):hover {
+  background: linear-gradient(105deg, #6842f5 0%, #432ab9 100%);
+}
+
+.live-dot {
+  background: #21b982;
+  box-shadow: 0 0 0 3px #21b9821f;
+}
+
+.intervention-hero {
+  border-color: #ddd5ff;
+  background:
+    radial-gradient(circle at 84% 18%, #ffffff 0, transparent 31%),
+    linear-gradient(120deg, #faf8ff, #f2eeff 70%, #fbfaff);
+  box-shadow: 0 16px 36px #4a35b010;
+}
+
+.intervention-hero::after {
+  border-color: #755bf025;
+}
+
+.intervention-eyebrow,
+.intervention-class,
+.intervention-confidence > span {
+  color: #7257df;
+}
+
+.intervention-hero h1 {
+  color: var(--ink);
+}
+
+.intervention-confidence {
+  border-left-color: #d7cff7;
+}
+
+.intervention-confidence strong {
+  color: var(--purple-deep);
+}
+
+.intervention-confidence-card {
+  border-left-color: var(--purple);
+  background: #f7f4ff;
+}
+
+.beacon-workspace-hero > p,
+.beacon-message > p,
+.beacon-questions > p,
+.decision-eyebrow,
+.upload-brief p,
+.upload-processing p {
+  color: var(--purple);
+}
+
+.beacon-message {
+  border-color: #e0daf8;
+}
+
+.beacon-intro,
+.beacon-thinking,
+.decision-action-panel {
+  background: #faf8ff;
+}
+
+.beacon-questions button,
+.beacon-follow-up-actions button {
+  border-color: #e0daf8;
+  color: #503ab6;
+  background: #fff;
+}
+
+.beacon-questions button:hover,
+.beacon-follow-up-actions button:hover {
+  border-color: #a996ff;
+  background: #f6f3ff;
+}
+
+.decision-primary-card,
+.decision-monitoring,
+.upload-brief {
+  border-color: #ddd5ff;
+  background: linear-gradient(120deg, #fbfaff, #f3efff);
+  box-shadow: 0 12px 30px #5038bc0b;
+}
+
+.decision-confidence strong,
+.decision-outcome-list strong b {
+  color: var(--purple-deep);
+}
+
+.decision-assign:disabled {
+  background: #228a67;
+}
+
+.upload-card:hover {
+  border-color: #9b86fb;
+  background: #fdfcff;
+}
+
+.upload-brief > span {
+  color: #fff;
+  background: linear-gradient(145deg, #7d5bff, #4b31c9);
+  box-shadow: 0 7px 16px #593fd12e;
+}
+
+@media (max-width: 720px) {
+  .brief-confidence,
+  .intervention-confidence {
+    border-left: 0;
+    border-top-color: #d7cff7;
+  }
+
+  .mobile-mark {
+    display: grid;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-item:hover,
+  .icon-button:hover {
+    transform: none;
+  }
+}

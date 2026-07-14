@@ -1,0 +1,40 @@
+# Frontend dependencies and build output
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets: commit examples only
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Local runtime state and uploaded school data
+backend/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Generated inspection and scratch artifacts
+tmp/
+*.inspect.ndjson
+*.log
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,7 @@
+student_id,class_name,date,incident_type,severity
+1001,Grade 7A,2026-06-01,late,low
+1002,Grade 7A,2026-06-02,disruption,low
+1001,Grade 7A,2026-06-03,late,low
+1001,Grade 7A,2026-07-01,disruption,medium
+1002,Grade 7A,2026-07-02,disruption,medium
+1003,Grade 7A,2026-07-03,late,low

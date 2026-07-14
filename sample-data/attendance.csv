@@ -1,0 +1,7 @@
+student_id,class_name,date,status
+1001,Grade 7A,2026-06-01,present
+1002,Grade 7A,2026-06-02,present
+1003,Grade 7A,2026-06-03,present
+1001,Grade 7A,2026-07-01,absent
+1002,Grade 7A,2026-07-02,absent
+1003,Grade 7A,2026-07-03,present

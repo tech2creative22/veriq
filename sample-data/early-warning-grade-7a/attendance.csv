@@ -1,0 +1,46 @@
+student_id,first_name,class_name,date,status,reason,academic_year,term,source_system
+G7A-001,Tendai,Grade 7A,2026-05-18,present,,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-05-18,present,,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-05-18,present,,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-05-18,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-05-18,present,,2026,2,Veriq demo school
+G7A-001,Tendai,Grade 7A,2026-05-25,present,,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-05-25,present,,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-05-25,absent,Illness reported,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-05-25,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-05-25,present,,2026,2,Veriq demo school
+G7A-001,Tendai,Grade 7A,2026-06-01,present,,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-06-01,present,,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-06-01,present,,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-06-01,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-06-01,present,,2026,2,Veriq demo school
+G7A-001,Tendai,Grade 7A,2026-06-08,present,,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-06-08,present,,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-06-08,present,,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-06-08,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-06-08,present,,2026,2,Veriq demo school
+G7A-001,Tendai,Grade 7A,2026-06-15,present,,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-06-15,present,,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-06-15,present,,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-06-15,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-06-15,present,,2026,2,Veriq demo school
+G7A-001,Tendai,Grade 7A,2026-06-22,absent,Unexplained,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-06-22,present,,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-06-22,absent,Unexplained,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-06-22,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-06-22,present,,2026,2,Veriq demo school
+G7A-001,Tendai,Grade 7A,2026-06-29,absent,Unexplained,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-06-29,absent,Transport difficulty,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-06-29,present,,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-06-29,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-06-29,present,,2026,2,Veriq demo school
+G7A-001,Tendai,Grade 7A,2026-07-06,absent,Unexplained,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-07-06,absent,Transport difficulty,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-07-06,absent,Unexplained,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-07-06,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-07-06,present,,2026,2,Veriq demo school
+G7A-001,Tendai,Grade 7A,2026-07-13,present,,2026,2,Veriq demo school
+G7A-002,Chipo,Grade 7A,2026-07-13,absent,Transport difficulty,2026,2,Veriq demo school
+G7A-003,Nyasha,Grade 7A,2026-07-13,absent,Unexplained,2026,2,Veriq demo school
+G7A-004,Tariro,Grade 7A,2026-07-13,present,,2026,2,Veriq demo school
+G7A-005,Farai,Grade 7A,2026-07-13,present,,2026,2,Veriq demo school

@@ -1,0 +1,35 @@
+student_id,first_name,class_name,date,incident_type,severity
+PHS-F1A-001,Tatenda,Form 1A,2026-06-04,classroom disruption,low
+PHS-F1A-005,Farai,Form 1A,2026-06-11,late to lesson,low
+PHS-F1A-001,Tatenda,Form 1A,2026-07-02,classroom disruption,low
+PHS-F1A-005,Farai,Form 1A,2026-07-09,late to lesson,low
+PHS-F2A-002,Tariro,Form 2A,2026-06-04,late to lesson,low
+PHS-F2A-004,Kudzai,Form 2A,2026-06-11,classroom disruption,low
+PHS-F2A-001,Nyasha,Form 2A,2026-07-02,defiance,medium
+PHS-F2A-001,Nyasha,Form 2A,2026-07-02,classroom disruption,medium
+PHS-F2A-001,Nyasha,Form 2A,2026-07-09,bullying,high
+PHS-F2A-001,Nyasha,Form 2A,2026-07-09,defiance,medium
+PHS-F2A-004,Kudzai,Form 2A,2026-07-09,classroom disruption,low
+PHS-F3A-002,Chiedza,Form 3A,2026-06-04,late to lesson,low
+PHS-F3A-003,Simbarashe,Form 3A,2026-06-11,classroom disruption,low
+PHS-F3A-001,Tendai,Form 3A,2026-07-02,defiance,medium
+PHS-F3A-001,Tendai,Form 3A,2026-07-02,classroom disruption,medium
+PHS-F3A-001,Tendai,Form 3A,2026-07-02,fighting,high
+PHS-F3A-001,Tendai,Form 3A,2026-07-09,bullying,high
+PHS-F3A-001,Tendai,Form 3A,2026-07-09,defiance,medium
+PHS-F3A-001,Tendai,Form 3A,2026-07-09,classroom disruption,medium
+PHS-F3A-001,Tendai,Form 3A,2026-07-09,property damage,high
+PHS-F3A-002,Chiedza,Form 3A,2026-07-02,late to lesson,low
+PHS-F3A-003,Simbarashe,Form 3A,2026-07-09,classroom disruption,low
+PHS-F4A-002,Munashe,Form 4A,2026-06-04,late to lesson,low
+PHS-F4A-004,Takudzwa,Form 4A,2026-06-11,classroom disruption,low
+PHS-F4A-001,Chipo,Form 4A,2026-07-02,defiance,medium
+PHS-F4A-001,Chipo,Form 4A,2026-07-02,classroom disruption,medium
+PHS-F4A-001,Chipo,Form 4A,2026-07-02,fighting,high
+PHS-F4A-001,Chipo,Form 4A,2026-07-02,bullying,high
+PHS-F4A-001,Chipo,Form 4A,2026-07-09,defiance,medium
+PHS-F4A-001,Chipo,Form 4A,2026-07-09,classroom disruption,medium
+PHS-F4A-001,Chipo,Form 4A,2026-07-09,property damage,high
+PHS-F4A-001,Chipo,Form 4A,2026-07-09,fighting,high
+PHS-F4A-002,Munashe,Form 4A,2026-07-02,late to lesson,low
+PHS-F4A-004,Takudzwa,Form 4A,2026-07-09,classroom disruption,low

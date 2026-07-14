@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_name": "Veriq Zimbabwe Secondary Judge Dataset",
+  "school": "Prince High (fictional)",
+  "geography": "Harare, Zimbabwe (scenario only)",
+  "reporting_period": "Term 2 evidence, June-July 2026",
+  "generation_method": "Deterministic scenario generator; no source learner records and no random values",
+  "learners": 20,
+  "classes": 4,
+  "subjects": [
+    "Mathematics",
+    "English Language",
+    "Combined Science",
+    "Heritage Studies",
+    "Shona Language"
+  ],
+  "records": {
+    "attendance": 400,
+    "behaviour": 34,
+    "assessments": 400
+  },
+  "intended_scenarios": {
+    "connected_high_attention": [
+      "Chipo",
+      "Tendai",
+      "Nyasha"
+    ],
+    "single_signal_watch": [
+      "Tapiwa",
+      "Tanaka"
+    ],
+    "stable_controls": [
+      "Tatenda",
+      "Rutendo",
+      "Ropafadzo",
+      "Farai",
+      "Tariro",
+      "Anesu",
+      "Kudzai",
+      "Tinashe",
+      "Chiedza",
+      "Simbarashe",
+      "Rudo",
+      "Panashe",
+      "Munashe",
+      "Takudzwa",
+      "Vimbai"
+    ]
+  },
+  "files": {
+    "attendance.csv": {
+      "sha256": "d43615bf894a28f91fb676c16363247958ac30f5b463dbd86fec94839b88b306"
+    },
+    "behaviour.csv": {
+      "sha256": "a8d54a23ca94fa37f18e118b71138fd8f85936706c7156024a62cfacae1da65a"
+    },
+    "assessments.csv": {
+      "sha256": "13e8e34d604c5dd3435fd710c8cd8dac99ef85abee15e5a11f29353bc9d51437"
+    }
+  }
+}

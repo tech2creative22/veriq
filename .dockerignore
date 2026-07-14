@@ -1,0 +1,16 @@
+.git
+.gitignore
+.next
+node_modules
+backend/.env
+backend/.venv
+backend/data
+**/__pycache__
+**/*.pyc
+*.db
+*.sqlite*
+tmp
+outputs
+submission
+demo-data
+*.log

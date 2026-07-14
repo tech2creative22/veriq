@@ -1,0 +1,184 @@
+{
+  "success": true,
+  "target": "http://localhost:3000",
+  "checks": [
+    {
+      "name": "/ returns a page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/ has one main heading",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/ has no encoding replacement marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/ has no server error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/upload returns a page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/upload has one main heading",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/upload has no encoding replacement marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/upload has no server error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/early-intervention returns a page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/early-intervention has one main heading",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/early-intervention has no encoding replacement marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/early-intervention has no server error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/beacon returns a page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/beacon has one main heading",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/beacon has no encoding replacement marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/beacon has no server error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/decision-brief returns a page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/decision-brief has one main heading",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/decision-brief has no encoding replacement marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/decision-brief has no server error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/settings returns a page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/settings has one main heading",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/settings has no encoding replacement marker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/settings has no server error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "upload action is gated before acknowledgement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three CSV inputs are present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "upload action enables after files and acknowledgement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "synthetic import completes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "upload routes to connected School Pulse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "School Pulse uses imported school evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Beacon handles a greeting without an evidence template",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "School Pulse fits mobile viewport",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no browser page errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no failed browser requests",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no browser console errors",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "networkErrors": []
+}
