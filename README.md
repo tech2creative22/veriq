@@ -1,6 +1,136 @@
 # Veriq AI4Impact MVP
 
-Veriq helps Zimbabwean secondary-school leaders detect connected attendance, behaviour and continuous-assessment patterns early enough to intervene. Its Beacon assistant explains only verified evidence calculated by the application, answers questions at school, class, metric or learner scope, and can turn an explanation into a human-owned Decision Brief.
+# Veriq
+
+**AI-Native Educational Decision Intelligence Platform**
+
+Veriq helps school leaders detect educational problems before they become examination results.
+
+Instead of waiting until the end of the term to discover declining pass rates,bad behavior Veriq continuously analyzes attendance, behaviour and perfomance data, it identifies emerging patterns, explains why they matter and recommends practical interventions through an AI assistant called **Beacon**.
+
+Built for the **AI4Impact Zimbabwe Challenge 2026**.
+
+---
+
+# The Problem
+
+Schools often discover problems too late.
+
+By the time examination results are released, opportunities for intervention have already passed.
+
+School leaders receive data.
+
+They rarely receive intelligence.
+
+Veriq changes that.
+
+---
+
+# Our Solution
+
+Veriq transforms raw school data into actionable educational intelligence.
+
+Using AI, Veriq:
+
+- Detects emerging educational risks
+- Connects evidence across multiple data sources
+- Explains why patterns matter
+- Recommends interventions
+- Generates accountable Decision Briefs for school leadership
+
+The goal is simple:
+
+> Help schools act **before problems become outcomes**.
+
+---
+
+# Core Workflow
+
+```text
+Upload School Data
+        ↓
+Validate Data
+        ↓
+Generate Educational Evidence
+        ↓
+Identify Early Risks
+        ↓
+Beacon Explains Why
+        ↓
+Generate Decision Brief
+        ↓
+Leadership Takes Action
+```
+
+---
+
+# Key Features
+
+## School Pulse
+
+An AI-generated overview of the school's current health, highlighting the most important priorities for the day.
+
+---
+
+## Data Upload
+
+Import attendance, behaviour and assessment CSV files for analysis.
+
+---
+
+## Early Intervention
+
+Detect emerging educational patterns before they become larger problems.
+
+Evidence is transparent, confidence is explained and recommendations remain grounded in school data.
+
+---
+
+## Beacon
+
+Beacon is Veriq's AI educational advisor.
+
+It explains:
+
+- Why a class was flagged
+- Which evidence supports the conclusion
+- What interventions should happen next
+- What information is still missing
+
+Beacon does not replace school leadership.
+
+It supports better decision-making.
+
+---
+
+## Decision Briefs
+
+Convert AI insights into structured leadership actions.
+
+Each Decision Brief contains:
+
+- verified evidence
+- recommended action
+- owner
+- due date
+- measurable success metric
+- confidence score
+
+---
+
+# AI Philosophy
+
+Veriq is designed around one principle:
+
+> AI should explain before it recommends.
+
+Every recommendation is supported by evidence.
+
+School leaders remain responsible for final decisions.
+
+Beacon provides intelligence.
+
+Humans provide judgement.
 
 This repository is the working **AI4I Development-track MVP**. It is suitable for demonstration with the included fictional dataset. It is not yet authorised for production processing of real learner records.
 
