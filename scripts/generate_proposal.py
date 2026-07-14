@@ -267,7 +267,7 @@ def cover() -> list:
                 ["Supporting Team", "Innocent Chaparika - Product Design"],
                 ["Contact", "praisegodchaps@gmail.com"],
                 ["Submission date", "14 July 2026"],
-                ["Repository", "github.com/tech2creative22/veriq"],
+                ["GitHub repository", "<link href='https://github.com/tech2creative22/veriq' color='#5B3DF5' underline='1'>https://github.com/tech2creative22/veriq</link>"],
             ],
             [1.55 * inch, 4.45 * inch],
         ),
