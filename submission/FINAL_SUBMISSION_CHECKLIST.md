@@ -15,15 +15,15 @@
 
 ## Applicant information required
 
-- [ ] Challenge Project ID.
-- [ ] Official team name.
-- [ ] Lead innovator's full legal/submission name.
-- [ ] Team member names and roles.
-- [ ] Submission deadline/date to print on cover.
+- [x] Challenge Project ID: `VERIQ`.
+- [x] Official team name: `Veriq`.
+- [x] Lead Innovator: `Praisegod Chaparika`.
+- [x] Supporting Team: `Innocent Chaparika - Product Design`.
+- [x] Submission date printed on cover: `14 July 2026`.
 - [x] Git author: `tech2creative22 <tech2creative22@gmail.com>`.
 - [x] Repository: `https://github.com/tech2creative22/veriq.git`.
-- [ ] Project code licence choice and confirmed legal/IP owner.
-- [ ] Private security-reporting email.
+- [x] Protected Challenge Evaluation Licence selected; project contact recorded, with internal contributor IP confirmation remaining before commercial contracting.
+- [x] Private security contact: `praisegodchaps@gmail.com`.
 - [ ] Preferred pilot school count/type and available first-year budget assumption.
 
 ## Final external checks
@@ -32,6 +32,6 @@
 - [ ] Build/start containers on Docker/CCE and preserve image digests and smoke output.
 - [ ] Deploy an HTTPS demo or record an approved local-demo plan.
 - [x] Complete the initial Git commit and publish the repository on `main`.
-- [ ] Create and visually verify the maximum-10-page proposal PDF with exact Project ID filename.
+- [x] Create and visually verify the 9-page main proposal PDF (plus cover and appendices) as `output/pdf/VERIQ_AI4I_Proposal_Development.pdf`.
 - [ ] Record a 3-5 minute backup demo video with synthetic data only.
-- [ ] Review every PDF, screenshot and video for secrets and personal data.
+- [x] Review the proposal PDF and committed screenshots for secrets and personal data; repeat for the demo video when recorded.

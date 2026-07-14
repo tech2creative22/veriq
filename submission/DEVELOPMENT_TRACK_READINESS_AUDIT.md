@@ -20,7 +20,7 @@ The product is demonstrable, but the current submission package is not yet ready
 | C2 AI Justification and Fit-for-Purpose | 30 | 25-28 | Grounded Gemini workflow, rule-only baseline, AI/non-AI boundary, model trade-offs, model card, fallback behaviour and 23 passing control tests are documented. A timed educator study and repeated live semantic benchmark remain. |
 | C3 Dataset Provenance and Synthetic Validation | 20 | 17-19 | The fictional dataset now has a deterministic generator, portable manifest with SHA-256 hashes, field dictionary, provenance/rights statement, limitations and a passing validation report executed through the production evidence engine. Final judge scoring may still expect validation on a larger representative pilot dataset. |
 | C4 Business Model and Edge Feasibility | 20 | 13-15 | Customer/user, adoption path, pricing hypothesis, AI unit economics, 12-month cost envelope, scaling boundary and cloud/edge position are documented. Reduced because pricing has not been validated with schools, legal/security costs need quotations and there is no paid pilot evidence. |
-| **Estimated total today** | **100** | **82-91** | Strong evidence package across technical delivery, AI, dataset, compliance, CCE, sustainability and source control; Docker-host execution, customer validation, live semantic evaluation and the final proposal PDF/video remain incomplete. |
+| **Estimated total today** | **100** | **84-92** | Strong evidence package across technical delivery, AI, dataset, compliance, CCE, sustainability, source control and a visually verified formal proposal; Docker-host execution, customer validation, live semantic evaluation, hosted demo and video remain incomplete. |
 
 This is a conservative document-based estimate, not an official score.
 
@@ -28,8 +28,8 @@ This is a conservative document-based estimate, not an official score.
 
 | Requirement | Status | Existing evidence | Required action |
 |---|---|---|---|
-| Clear Zimbabwe problem and intended users | Ready | AI4Impact overview and working school-leadership workflow | Condense into proposal Section 1 and identify headmasters, deputy heads and HODs explicitly. |
-| Product description or working prototype | Ready | Production build and tested end-to-end MVP | Add demo URL, screenshots and a 3-5 minute demo script. |
+| Clear Zimbabwe problem and intended users | Ready | Proposal Section 1 and the working school-leadership workflow identify headmasters, deputy heads, HODs and authorised support staff. | Validate the problem and workflow directly with school leaders. |
+| Product description or working prototype | Ready | Production build, tested end-to-end MVP, four main proposal screenshots and a timed demo script. | Add a hosted demo URL and record the 3-5 minute backup video. |
 | Technical architecture note | Ready | `docs/AS_BUILT_ARCHITECTURE.md` shows the implemented Next.js, FastAPI, SQLite, Gemini and CSV evidence flow. | Include it in the technical appendix and keep future architecture clearly labelled. |
 | Dataset statement | Ready | Three CSVs, judge workbook, deterministic generator, portable manifest, schema/label dictionary, rights statement and machine-readable validation report | Include `submission/dataset/DATASET_PROVENANCE.md` and the validation report in the technical appendix. |
 | User interaction plan | Ready | Upload, School Pulse, Early Intervention, Beacon and Decision Brief workflow | Add a one-page user journey to the proposal. |
@@ -48,7 +48,7 @@ This is a conservative document-based estimate, not an official score.
 | Environment template | Ready | Root and backend `.env.example` files contain safe variable names/placeholders only; configuration is documented in `docs/ENVIRONMENT_AND_CONFIGURATION.md`. |
 | Deployment/CCE readiness | Partial | Non-root frontend/backend Dockerfiles, Compose topology, persistent volume, health checks, resource budget, operations runbook, smoke test and ZCHPC CCE roadmap are included. Docker is not installed on the current workstation, so image build/start must be verified on a Docker-capable host or CCE. |
 | Live demo URL | Missing | Deploy the frontend and backend or provide an approved hosted demonstration route. |
-| Asset and licence register | Partial | Project assets, direct libraries, Gemini/CCE terms and release blockers are registered. Applicant must confirm the legal owner and choose a project code licence before publication. |
+| Asset and licence register | Ready for challenge evaluation | Project assets, direct libraries, Gemini/CCE terms and release blockers are registered. The root Challenge Evaluation Licence permits authorised evaluation but does not grant general reuse rights. | Confirm contributor IP assignments and obtain legal review before commercial contracting. |
 
 ## AI justification checklist
 
@@ -157,8 +157,8 @@ Required structure:
 6. ~~Create compliance, consent and risk documentation; add the upload acknowledgement control.~~ Completed for the synthetic-data MVP on 14 July 2026; real-data pilot gates remain open.
 7. ~~Create the CCE deployment plan and reproducible container/build configuration.~~ Completed as a reviewable package on 14 July 2026; container execution remains a final external-host gate.
 8. ~~Create the business model, cost projection and licence register.~~ Completed as judge-review hypotheses on 14 July 2026; ownership/licence selection and market validation remain applicant gates.
-9. Draft and render the formal 10-page proposal.
-10. Deploy, record the demo, run the full test/audit suite and package final evidence.
+9. ~~Draft, render and visually verify the formal proposal.~~ Completed on 14 July 2026 as `output/pdf/VERIQ_AI4I_Proposal_Development.pdf`: cover, 9-page main proposal and 3 appendices.
+10. Deploy, record the demo and complete the remaining external live-model/container gates; the local test/audit evidence package is complete.
 
 ## Information required from the applicant
 

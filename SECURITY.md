@@ -6,9 +6,7 @@ Veriq is currently a Development-track MVP intended for synthetic demonstration 
 
 ## Reporting a vulnerability
 
-Do not include personal data, API keys or exploit details in a public issue. Report the affected component, version, reproduction steps and impact privately to the project lead. A private reporting address will be added before the repository is published.
-
-Until that address is assigned, challenge reviewers should contact the submitting team through the official challenge channel.
+Do not include personal data, API keys or exploit details in a public issue. Report the affected component, version, reproduction steps and impact privately to `praisegodchaps@gmail.com`.
 
 ## Response targets
 

@@ -268,7 +268,7 @@ Set-Location backend
 python -m unittest discover -s tests -v
 ```
 
-The verified baseline on 14 July 2026 is: zero production npm vulnerabilities, zero TypeScript errors, zero ESLint errors, a successful optimized build and 28 passing backend tests. See [security baseline](submission/SECURITY_BASELINE.md).
+The verified baseline on 14 July 2026 is: zero production npm vulnerabilities, zero TypeScript errors, zero ESLint errors, a successful optimized build, 29 passing backend tests and a 35-check visible browser flow. See [security baseline](submission/SECURITY_BASELINE.md).
 
 ## Repository structure
 
@@ -300,4 +300,4 @@ The assessment CSV represents internal continuous-assessment results. The MVP do
 
 ## Licence and contribution status
 
-The formal project licence, third-party asset register and contribution policy are part of the remaining Development-track submission work. Until a licence is added, no external reuse rights are granted by this repository.
+Veriq is released under the repository's protected [Challenge Evaluation Licence](LICENSE): authorised challenge reviewers may inspect and run it for evaluation, but no general reuse, redistribution or commercialisation rights are granted. Third-party dependencies remain governed by their own licences. See the [licence and asset register](submission/business/LICENCE_AND_ASSET_REGISTER.md).

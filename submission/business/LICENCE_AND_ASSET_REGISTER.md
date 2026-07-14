@@ -7,7 +7,7 @@
 
 | Asset | Origin/owner | Current permission | Release action |
 |---|---|---|---|
-| Veriq application source, prompts and documentation | Created in this project; legal owner must be confirmed by the applicant/team agreement. | Private MVP use. No root software licence has been selected. | Applicant must choose and add the intended licence before making the repository public. Do not assume open-source permission. |
+| Veriq application source, prompts and documentation | Copyright 2026 Praisegod Chaparika and Veriq contributors; team contribution ownership still requires internal confirmation. | Challenge Evaluation Licence: authorised challenge inspection/execution only; all other rights reserved. | Keep `LICENSE` with every review copy and obtain written IP assignments before commercial contracting. |
 | Veriq name, wordmark and SVG mark | Project-created UI asset. Trademark ownership/search not completed. | Challenge demonstration. | Confirm owner and conduct name/trademark review before commercial launch. |
 | Inline interface icons | Project-authored SVG path components in `components/app-icons.tsx`. | Included with application source. | Confirm authorship in team IP assignment. |
 | UI styling and layouts | Project-created CSS/React implementation. | Challenge demonstration. | Retain design-source evidence and team IP assignment. |
@@ -47,9 +47,8 @@ Transitive dependencies must be captured in a generated SBOM or lockfile-derived
 
 ## Release blockers
 
-1. Applicant must provide the legal project/team owner and choose the project code licence.
-2. Every team member/contractor must confirm IP assignment or permission for contributed assets.
-3. Generate a dependency/SBOM notice from the final release images.
-4. Record Gemini and CCE terms accepted by the responsible organisation.
-5. Review the final proposal, screenshots and demo video for real personal data and third-party media.
-6. Add a private security contact before repository publication.
+1. Every team member/contractor must confirm IP assignment or permission for contributed assets.
+2. Generate a dependency/SBOM notice from the final release images.
+3. Record Gemini and CCE terms accepted by the responsible organisation.
+4. Review the final proposal, screenshots and demo video for real personal data and third-party media.
+5. Review the custom Challenge Evaluation Licence with qualified counsel before commercial contracting.
