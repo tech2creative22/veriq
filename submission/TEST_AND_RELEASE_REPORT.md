@@ -31,7 +31,7 @@ The browser test used the production standalone frontend at `http://localhost:30
 - School Pulse has no horizontal overflow at a 390 px mobile viewport; and
 - there are no failed browser requests, console errors or page errors.
 
-Machine-readable results and four release screenshots are under `outputs/judge-readiness-zimbabwe/browser/`.
+Machine-readable results and five visually verified release screenshots are under `outputs/judge-readiness-zimbabwe/browser/`, including the Early Intervention monitoring workspace.
 
 ## Defects found and corrected during release testing
 

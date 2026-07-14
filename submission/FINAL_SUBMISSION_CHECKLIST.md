@@ -11,7 +11,7 @@
 - [x] Non-root Dockerfiles, Compose topology, CCE roadmap, resource budget and operations runbook.
 - [x] Business/adoption model, pricing/cost hypothesis and licence/asset register.
 - [x] Production dependency audit, build, type, lint, 29 backend tests and 35-check browser flow.
-- [x] Four final browser screenshots and a timed judge demo script.
+- [x] Five final browser screenshots, including Early Intervention, and a timed judge demo script.
 
 ## Applicant information required
 
