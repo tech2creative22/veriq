@@ -20,8 +20,8 @@
 - [ ] Lead innovator's full legal/submission name.
 - [ ] Team member names and roles.
 - [ ] Submission deadline/date to print on cover.
-- [ ] Git author name and email for the honest initial commit.
-- [ ] Repository hosting account/organisation and remote URL.
+- [x] Git author: `tech2creative22 <tech2creative22@gmail.com>`.
+- [x] Repository: `https://github.com/tech2creative22/veriq.git`.
 - [ ] Project code licence choice and confirmed legal/IP owner.
 - [ ] Private security-reporting email.
 - [ ] Preferred pilot school count/type and available first-year budget assumption.
@@ -31,7 +31,7 @@
 - [ ] Run and record the 30-response live Gemini semantic evaluation.
 - [ ] Build/start containers on Docker/CCE and preserve image digests and smoke output.
 - [ ] Deploy an HTTPS demo or record an approved local-demo plan.
-- [ ] Complete the initial Git commit and publish the adjudicator-accessible repository.
+- [x] Complete the initial Git commit and publish the repository on `main`.
 - [ ] Create and visually verify the maximum-10-page proposal PDF with exact Project ID filename.
 - [ ] Record a 3-5 minute backup demo video with synthetic data only.
 - [ ] Review every PDF, screenshot and video for secrets and personal data.

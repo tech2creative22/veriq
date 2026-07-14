@@ -16,11 +16,11 @@ The product is demonstrable, but the current submission package is not yet ready
 
 | Criterion | Weight | Current estimate | Main reason |
 |---|---:|---:|---|
-| C1 Technical Feasibility and Code Quality | 30 | 26-28 | Functional modular MVP, reproducible setup and as-built/API/environment documentation, pinned manifests, 29 backend tests, 35 browser checks, clean standalone production build, zero production dependency vulnerabilities and a CCE container/operations package; reduced by missing committed Git history and Docker-host/hosted deployment evidence. |
+| C1 Technical Feasibility and Code Quality | 30 | 27-29 | Functional modular MVP, reproducible setup and as-built/API/environment documentation, pinned manifests, 29 backend tests, 35 browser checks, clean standalone production build, zero production dependency vulnerabilities, CCE packaging and a published Git repository; reduced by missing Docker-host/hosted deployment evidence. |
 | C2 AI Justification and Fit-for-Purpose | 30 | 25-28 | Grounded Gemini workflow, rule-only baseline, AI/non-AI boundary, model trade-offs, model card, fallback behaviour and 23 passing control tests are documented. A timed educator study and repeated live semantic benchmark remain. |
 | C3 Dataset Provenance and Synthetic Validation | 20 | 17-19 | The fictional dataset now has a deterministic generator, portable manifest with SHA-256 hashes, field dictionary, provenance/rights statement, limitations and a passing validation report executed through the production evidence engine. Final judge scoring may still expect validation on a larger representative pilot dataset. |
 | C4 Business Model and Edge Feasibility | 20 | 13-15 | Customer/user, adoption path, pricing hypothesis, AI unit economics, 12-month cost envelope, scaling boundary and cloud/edge position are documented. Reduced because pricing has not been validated with schools, legal/security costs need quotations and there is no paid pilot evidence. |
-| **Estimated total today** | **100** | **81-90** | Strong evidence package across technical delivery, AI, dataset, compliance, CCE and sustainability; Git history, Docker-host execution, customer validation, live semantic evaluation and the final proposal PDF/video remain incomplete. |
+| **Estimated total today** | **100** | **82-91** | Strong evidence package across technical delivery, AI, dataset, compliance, CCE, sustainability and source control; Docker-host execution, customer validation, live semantic evaluation and the final proposal PDF/video remain incomplete. |
 
 This is a conservative document-based estimate, not an official score.
 
@@ -44,7 +44,7 @@ This is a conservative document-based estimate, not an official score.
 | Dependency stability | Ready/Partial | Frontend runtime dependencies are exactly pinned and `package-lock.json` is current; Python requirements are pinned. Add isolated Python environment setup evidence. |
 | Unit and end-to-end testing | Ready | 29 backend tests and a 35-check visible production browser flow pass, including real synthetic upload, cross-workspace evidence, Beacon greeting, console/network checks and mobile overflow. See `submission/TEST_AND_RELEASE_REPORT.md`. |
 | Security warning-free code | Ready | Next.js upgraded to 15.5.20, PostCSS locked to 8.5.10, `npm audit --omit=dev --audit-level=high --package-lock-only` reports zero vulnerabilities, and the production build plus 29 backend tests pass. See `submission/SECURITY_BASELINE.md`. |
-| Git evidence | Partial/Blocked | A clean repository is initialised on `main`, ignore rules protect secrets/runtime data and the source package is staged. The honest initial commit awaits the applicant's real Git author name/email; a remote link is also required. No historical commits will be fabricated. |
+| Git evidence | Ready | Honest initial commit `ec5fec6` is published on `main` at `https://github.com/tech2creative22/veriq`; ignore rules protect secrets and runtime data. No historical commits were fabricated. |
 | Environment template | Ready | Root and backend `.env.example` files contain safe variable names/placeholders only; configuration is documented in `docs/ENVIRONMENT_AND_CONFIGURATION.md`. |
 | Deployment/CCE readiness | Partial | Non-root frontend/backend Dockerfiles, Compose topology, persistent volume, health checks, resource budget, operations runbook, smoke test and ZCHPC CCE roadmap are included. Docker is not installed on the current workstation, so image build/start must be verified on a Docker-capable host or CCE. |
 | Live demo URL | Missing | Deploy the frontend and backend or provide an approved hosted demonstration route. |
@@ -150,7 +150,7 @@ Required structure:
 ## Recommended order of work
 
 1. ~~Resolve the dependency security finding without breaking the production build.~~ Completed 14 July 2026.
-2. Initialise Git, create the remote repository and make structured commits for all work from this point forward.
+2. ~~Initialise Git, create the remote repository and make structured commits for all work from this point forward.~~ Completed 14 July 2026.
 3. ~~Write the as-built README, architecture and `.env.example`.~~ Completed 14 July 2026.
 4. ~~Produce the dataset provenance and synthetic-validation report.~~ Completed 14 July 2026.
 5. ~~Write the AI necessity/baseline comparison and model trade-off note.~~ Completed 14 July 2026.
@@ -169,5 +169,5 @@ Required structure:
 - Submission deadline.
 - Available budget/currency assumptions.
 - Preferred pilot school type and number of pilot schools.
-- Repository hosting account/organisation.
+- Repository hosting account/organisation. **Provided:** `tech2creative22/veriq`.
 - Intended demo hosting provider or CCE access details.

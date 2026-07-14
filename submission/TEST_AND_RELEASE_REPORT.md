@@ -62,5 +62,5 @@ The browser automation was run through the Playwright workflow against the visib
 - Run the documented 10-question live Gemini semantic protocol three times and record the 30-response rubric before final submission.
 - Build and start the Docker/Compose package on a Docker-capable host or allocated CCE; Docker is not installed on this workstation.
 - Provide a hosted demo URL or CCE route and rerun the smoke/browser flow against HTTPS.
-- Add repository remote/commit evidence after the applicant provides real Git identity.
+- Repository evidence completed: initial commit `ec5fec6` is published on `main` at `https://github.com/tech2creative22/veriq`.
 - Complete the proposal cover identity, final code licence and security contact.
